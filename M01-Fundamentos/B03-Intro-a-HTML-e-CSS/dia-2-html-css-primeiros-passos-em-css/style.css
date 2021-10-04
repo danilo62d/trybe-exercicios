@@ -1,0 +1,31 @@
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+font-size: 16px;
+font-style: oblique;
+line-height: 40px;
+}
+ul {
+  background-color: royalblue;
+}
+.fundo {
+  background-color: salmon;
+}
+p {
+font-weight: 600;
+font-size: 3em;
+text-decoration: underline;
+}
+#c1 {
+background-color: yellow;
+}
+#c2 {
+background-color: red;
+}
+#c3 {
+background-color: brown;
+}
