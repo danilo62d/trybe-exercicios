@@ -4,19 +4,15 @@
 
 .goomba {
   width: 100px;
-  border: 1px solid;
 }
 
 .baloon {
   transform: scaleX(-1);
-  border: 1px solid;
-  top: 50%
-  
+  top: 50%  
 }
 
 .speach {
   font-size: 25px;
-  border: 1px solid;  
   top: 50%; 
   position:absolute;
   z-index: 1;
@@ -26,11 +22,9 @@
 
 .bowser {
   width: 200px;
-  border: 1px solid;
 }
 
 .fig1 {
-  border: 1px solid;
   position: relative;
   left: 200px;
   }
