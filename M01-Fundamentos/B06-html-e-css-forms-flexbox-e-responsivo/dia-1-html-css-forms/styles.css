@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(233, 241, 238);
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2.5em;
+  color: #0c663c;
+  text-align: center;
+  margin-top: 50px;
+}
+
+legend {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 50px;
+  border: 0;
+}
+
+body {
+  border: 1px solid #0c663c;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px #0c663c;
+  background-color: #f3f0f0;
+  font-family: sans-serif;
+  font-size: 1em;
+  color: #33410b;
+  margin: 2% 30%;
+  justify-content: center;
+  text-shadow: 0.3px 0.3px;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid #0c663c;
+  border-radius: 15px;
+  box-shadow: 2px 2px #0c663c;
+}
+
+.line-content {
+  margin-top: 10px;
+}
+
+select {
+  inline-size: 45px;
+  text-align: center;
+}
+
+.text-place {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+#start-date {
+  margin-left: 2px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
