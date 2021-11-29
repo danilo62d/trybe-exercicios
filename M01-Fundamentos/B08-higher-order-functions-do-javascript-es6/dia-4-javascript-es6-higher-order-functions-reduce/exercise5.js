@@ -13,5 +13,10 @@ const names = [
 ];
 
 function containsA() {
-  // escreva seu código aqui
+  return names.reduce((acc, curr) => acc + curr.split('').reduce((acc, curr) => {
+      if (curr === 'A' || curr === 'a') acc += 1; return acc
+      }, 0), 0);
 }
+  
+
+console.log(containsA())
